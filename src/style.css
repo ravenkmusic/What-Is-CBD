@@ -1,11 +1,36 @@
+body {
+  background-image: linear-gradient(to top, #fff 0%, #b5d49f 100%);
+  background-repeat: no-repeat;
+}
+
 .header {
   position: relative;
-  top: 0;
+  top: 0px;
+  background-image: url(images/cbd-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
   text-align: center;
-  background: #fff;
-  color: #000;
+  text-shadow: 0 1px 1px black;
+  height: 400px;
   width: 100%;
+}
 
+.questions {
+  display: block;
+  margin: 0 auto;
+  max-width: 85%;
+}
+.cbd-definition,
+.cbd-side-effects,
+.cbd-legality {
+  text-align: left;
+  max-width: 75%;
+}
+
+.cbd-effects,
+.cbd-use {
+  text-align: right;
 }
 
 .sources,
